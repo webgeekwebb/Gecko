@@ -18,7 +18,10 @@ int ThresholdFromBLYNK = 0;
 int SENDOK = 1;
 
 // Set Relay Pins
-int relayOne = 4;
+int relayOne = 4; //D2
+
+//set water sesnor pin
+int relayOne = 5; //D1
 
 //ThingSpeak
 unsigned long myChannelNumber = 249402;
